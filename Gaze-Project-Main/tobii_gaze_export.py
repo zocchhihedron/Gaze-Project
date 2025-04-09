@@ -1,4 +1,6 @@
 #Remember to use Python 3.10
+import sys
+print(sys.executable)
 import tobii_research as tr
 import time
 import json
@@ -32,7 +34,7 @@ my_eyetracker.subscribe_to(tr.EYETRACKER_GAZE_DATA, gaze_data_callback, as_dicti
 
 
 #Collect data for n seconds and unsubscribe from the callback function afterwards 
-time.sleep(10)
+time.sleep(5)
 my_eyetracker.unsubscribe_from(tr.EYETRACKER_GAZE_DATA, gaze_data_callback)
 
 #Modify the time value in gaze samples to represent time range for each sample
