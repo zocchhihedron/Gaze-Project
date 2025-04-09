@@ -49,5 +49,3 @@ gaze_sample_list[-1]["time"] = 1 #Placeholder
 #Collect to a JSON file
 with open('datafile_name.json', 'w') as file:
     gaze_data_json = json.dump(gaze_sample_list, file, indent=4)
-
-print(gaze_data_json)
