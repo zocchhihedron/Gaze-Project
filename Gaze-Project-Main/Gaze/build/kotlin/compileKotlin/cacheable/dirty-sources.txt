@@ -1,8 +1,8 @@
-C:\Users\Sofia Svensson\AppData\Local\Programs\furhat-sdk-desktop-launcher\Template\Gaze\src\main\kotlin\furhatos\app\gaze\main.kt
-C:\Users\Sofia Svensson\AppData\Local\Programs\furhat-sdk-desktop-launcher\Template\Gaze\src\main\kotlin\furhatos\app\gaze\gazeFunctionality\gazeTranslatedFunction.kt
-C:\Users\Sofia Svensson\AppData\Local\Programs\furhat-sdk-desktop-launcher\Template\Gaze\src\main\kotlin\furhatos\app\gaze\setting\interactionParams.kt
-C:\Users\Sofia Svensson\AppData\Local\Programs\furhat-sdk-desktop-launcher\Template\Gaze\src\main\kotlin\furhatos\app\gaze\dataImport\JSONimport.kt
-C:\Users\Sofia Svensson\AppData\Local\Programs\furhat-sdk-desktop-launcher\Template\Gaze\src\main\kotlin\furhatos\app\gaze\flow\init.kt
-C:\Users\Sofia Svensson\AppData\Local\Programs\furhat-sdk-desktop-launcher\Template\Gaze\src\main\kotlin\furhatos\app\gaze\flow\main\greeting.kt
-C:\Users\Sofia Svensson\AppData\Local\Programs\furhat-sdk-desktop-launcher\Template\Gaze\src\main\kotlin\furhatos\app\gaze\flow\parent.kt
-C:\Users\Sofia Svensson\AppData\Local\Programs\furhat-sdk-desktop-launcher\Template\Gaze\src\main\kotlin\furhatos\app\gaze\flow\main\idle.kt
+C:\Users\Zofia Lukasiewicz\Desktop\Gaze-Project\Gaze-Project-Main\Gaze\src\main\kotlin\furhatos\app\gaze\flow\main\greeting.kt
+C:\Users\Zofia Lukasiewicz\Desktop\Gaze-Project\Gaze-Project-Main\Gaze\src\main\kotlin\furhatos\app\gaze\flow\parent.kt
+C:\Users\Zofia Lukasiewicz\Desktop\Gaze-Project\Gaze-Project-Main\Gaze\src\main\kotlin\furhatos\app\gaze\flow\init.kt
+C:\Users\Zofia Lukasiewicz\Desktop\Gaze-Project\Gaze-Project-Main\Gaze\src\main\kotlin\furhatos\app\gaze\setting\interactionParams.kt
+C:\Users\Zofia Lukasiewicz\Desktop\Gaze-Project\Gaze-Project-Main\Gaze\src\main\kotlin\furhatos\app\gaze\dataImport\JSONimport.kt
+C:\Users\Zofia Lukasiewicz\Desktop\Gaze-Project\Gaze-Project-Main\Gaze\src\main\kotlin\furhatos\app\gaze\flow\main\idle.kt
+C:\Users\Zofia Lukasiewicz\Desktop\Gaze-Project\Gaze-Project-Main\Gaze\src\main\kotlin\furhatos\app\gaze\gazeFunctionality\mimicFunction.kt
+C:\Users\Zofia Lukasiewicz\Desktop\Gaze-Project\Gaze-Project-Main\Gaze\src\main\kotlin\furhatos\app\gaze\main.kt
