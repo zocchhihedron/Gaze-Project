@@ -10,7 +10,7 @@ import furhatos.nlu.common.Yes
 
 //For gaze
 import furhatos.app.gazeproject2025.gaze.mimicGaze
-import furhatos.app.gazeproject2025.gaze.compileGaze
+import furhatos.app.gazeproject2025.gaze.GazeSample
 
 val Greeting: State = state(Parent) {
     onEntry {
