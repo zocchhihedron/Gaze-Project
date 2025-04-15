@@ -9,21 +9,15 @@ import furhatos.nlu.common.No
 import furhatos.nlu.common.Yes
 
 //For gaze
-import furhatos.app.gazeproject2025.gaze.mimicGaze
 import furhatos.app.gazeproject2025.gaze.GazeSample
+import furhatos.app.gazeproject2025.gaze.GazeDataCompiler
 
 val Greeting: State = state(Parent) {
     onEntry {
-        furhat.ask("Should I say Hello World?")
-    }
+        furhat.say("This is working!")
+        // Apply the gaze pattern from the JSON file
+        //GazeGesture.applyGazePattern("src/main/resources/gazedata.json", furhat)
 
-    onResponse<Yes> {
-        furhat.say("Hello World! ")
     }
-
-    onResponse<No> {
-        furhat.say("Ok.")
     }
-
-}
 
