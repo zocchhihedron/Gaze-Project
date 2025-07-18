@@ -11,12 +11,25 @@ import furhatos.nlu.common.Yes
 //For gaze
 import furhatos.app.gazeproject2025.gaze.GazeSample
 import furhatos.app.gazeproject2025.gaze.GazeDataCompiler
+import furhatos.gestures.*
+import furhatos.gestures.ARKitParams
+
+
+
+val CustomExpression = defineGesture("Custom") {
+    frame(0.0, 5.0){
+        BasicParams.EXPR_ANGER
+    }
+    reset(10.04)
+}
 
 val Greeting: State = state(Parent) {
     onEntry {
-        furhat.say("This is working!")
+        furhat.gesture(CustomExpression)
+        furhat.say("Hello!")
         // Apply the gaze pattern from the JSON file
-        //GazeGesture.applyGazePattern("src/main/resources/gazedata.json", furhat)
+        //furhat.gesture(Gestures.Gaze)
+        furhat.gesture(CustomExpression)
 
     }
     }
