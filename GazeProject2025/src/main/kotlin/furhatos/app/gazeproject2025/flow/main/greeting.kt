@@ -18,7 +18,7 @@ import furhatos.gestures.ARKitParams
 
 val CustomExpression = defineGesture("Custom") {
     frame(0.0, 5.0){
-        BasicParams.EXPR_ANGER
+        BasicParams.LOOK_LEFT
     }
     reset(10.04)
 }
